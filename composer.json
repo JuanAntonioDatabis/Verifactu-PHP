@@ -1,14 +1,14 @@
 {
-    "name": "josemmo/verifactu-php",
-    "description": "Librería para la implementación del sistema VERI*FACTU de la AEAT española",
+    "name": "juanantoniodatabis/verifactu-php-7-4",
+    "description": "Librería para la implementación del sistema VERI*FACTU de la AEAT española php 7.4",
     "keywords": ["verifactu", "aeat", "sii"],
     "license": "MIT",
-    "homepage": "https://github.com/josemmo/Verifactu-PHP",
+    "homepage": "https://github.com/JuanAntonioDatabis/Verifactu-PHP",
     "authors": [
         {
-            "name": "josemmo",
-            "email": "josemmo@pm.me",
-            "homepage": "https://github.com/josemmo"
+            "name": "JuanAntonioDatabis",
+            "email": "juanantonio@databis.net",
+            "homepage": "https://github.com/JuanAntonioDatabis"
         }
     ],
     "scripts": {
@@ -19,18 +19,18 @@
     },
     "autoload": {
         "psr-4": {
-            "josemmo\\Verifactu\\": "src/"
+            "JuanAntonioDatabis\\Verifactu\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "josemmo\\Verifactu\\Tests\\": "tests/"
+            "JuanAntonioDatabis\\Verifactu\\Tests\\": "tests/"
         }
     },
     "require": {
-        "php": ">=8.2",
+        "php": ">=7.4",
         "guzzlehttp/guzzle": "^7.10",
-        "josemmo/uxml": "^0.2.0",
+        "JuanAntonioDatabis/uxml": "^0.2.0",
         "symfony/validator": "^6.4|^7.4|^8.0"
     },
     "config": {
