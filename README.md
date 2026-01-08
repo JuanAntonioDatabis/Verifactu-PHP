@@ -6,16 +6,14 @@
 
 Verifactu-PHP es una librería sencilla escrita en PHP que permite generar registros de facturación según el sistema [VERI*FACTU](https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu.html) y posteriormente enviarlos telemáticamente a la Agencia Tributaria (AEAT).
 
+Este fork integra la libreria para una versión anterior de PHP.
+
 ## Instalación
 Asegúrate de que tu entorno de ejecución cumple los siguientes requisitos:
 
-- PHP 8.2 o superior
+- PHP 7.4 o superior
 - libXML
 
-Puedes instalar la librería utilizando el gestor de dependencias [Composer](https://getcomposer.org/):
-```sh
-composer require josemmo/verifactu-php
-```
 
 ## Ejemplo de uso
 ```php
