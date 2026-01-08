@@ -1,10 +1,10 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models\Exceptions;
+namespace juanantoniodatabis\Verifactu\Tests\Models\Exceptions;
 
 use DateTimeImmutable;
-use josemmo\Verifactu\Exceptions\InvalidModelException;
-use josemmo\Verifactu\Models\Records\CancellationRecord;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Exceptions\InvalidModelException;
+use juanantoniodatabis\Verifactu\Models\Records\CancellationRecord;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
 use PHPUnit\Framework\TestCase;
 
 final class InvalidModelExceptionTest extends TestCase {
@@ -25,9 +25,9 @@ final class InvalidModelExceptionTest extends TestCase {
             $actual = $e->getMessage();
             $expected = <<<TXT
             Invalid instance of model class:
-            - Object(josemmo\Verifactu\Models\Records\CancellationRecord).previousInvoiceId:
+            - Object(juanantoniodatabis\Verifactu\Models\Records\CancellationRecord).previousInvoiceId:
                 Previous invoice ID is required for all cancellation records
-            - Object(josemmo\Verifactu\Models\Records\CancellationRecord).previousHash:
+            - Object(juanantoniodatabis\Verifactu\Models\Records\CancellationRecord).previousHash:
                 Previous hash is required for all cancellation records
             TXT;
             $this->assertEquals($expected, $actual);

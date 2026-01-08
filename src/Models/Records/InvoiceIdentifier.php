@@ -1,9 +1,9 @@
 <?php
-namespace josemmo\Verifactu\Models\Records;
+namespace juanantoniodatabis\Verifactu\Models\Records;
 
 use DateTimeImmutable;
-use josemmo\Verifactu\Exceptions\ImportException;
-use josemmo\Verifactu\Models\Model;
+use juanantoniodatabis\Verifactu\Exceptions\ImportException;
+use juanantoniodatabis\Verifactu\Models\Model;
 use Symfony\Component\Validator\Constraints as Assert;
 use UXML\UXML;
 

@@ -1,11 +1,11 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models;
+namespace juanantoniodatabis\Verifactu\Tests\Models;
 
-use josemmo\Verifactu\Exceptions\AeatException;
-use josemmo\Verifactu\Models\Responses\AeatResponse;
-use josemmo\Verifactu\Models\Responses\ItemStatus;
-use josemmo\Verifactu\Models\Responses\RecordType;
-use josemmo\Verifactu\Models\Responses\ResponseStatus;
+use juanantoniodatabis\Verifactu\Exceptions\AeatException;
+use juanantoniodatabis\Verifactu\Models\Responses\AeatResponse;
+use juanantoniodatabis\Verifactu\Models\Responses\ItemStatus;
+use juanantoniodatabis\Verifactu\Models\Responses\RecordType;
+use juanantoniodatabis\Verifactu\Models\Responses\ResponseStatus;
 use PHPUnit\Framework\TestCase;
 use UXML\UXML;
 

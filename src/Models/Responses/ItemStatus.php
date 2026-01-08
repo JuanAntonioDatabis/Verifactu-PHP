@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Models\Responses;
+namespace juanantoniodatabis\Verifactu\Models\Responses;
 
 /**
  * Estado del envío de un registro

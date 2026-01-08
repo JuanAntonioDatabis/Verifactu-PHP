@@ -1,10 +1,10 @@
 <?php
-namespace josemmo\Verifactu\Tests\Services;
+namespace juanantoniodatabis\Verifactu\Tests\Services;
 
 use DateTimeImmutable;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
-use josemmo\Verifactu\Models\Records\RegistrationRecord;
-use josemmo\Verifactu\Services\QrGenerator;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\RegistrationRecord;
+use juanantoniodatabis\Verifactu\Services\QrGenerator;
 use PHPUnit\Framework\TestCase;
 
 final class QrGeneratorTest extends TestCase {

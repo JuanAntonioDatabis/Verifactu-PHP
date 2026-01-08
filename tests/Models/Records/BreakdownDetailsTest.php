@@ -1,11 +1,11 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models\Records;
+namespace juanantoniodatabis\Verifactu\Tests\Models\Records;
 
-use josemmo\Verifactu\Exceptions\InvalidModelException;
-use josemmo\Verifactu\Models\Records\BreakdownDetails;
-use josemmo\Verifactu\Models\Records\OperationType;
-use josemmo\Verifactu\Models\Records\RegimeType;
-use josemmo\Verifactu\Models\Records\TaxType;
+use juanantoniodatabis\Verifactu\Exceptions\InvalidModelException;
+use juanantoniodatabis\Verifactu\Models\Records\BreakdownDetails;
+use juanantoniodatabis\Verifactu\Models\Records\OperationType;
+use juanantoniodatabis\Verifactu\Models\Records\RegimeType;
+use juanantoniodatabis\Verifactu\Models\Records\TaxType;
 use PHPUnit\Framework\TestCase;
 
 final class BreakdownDetailsTest extends TestCase {

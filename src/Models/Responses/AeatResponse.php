@@ -1,13 +1,13 @@
 <?php
-namespace josemmo\Verifactu\Models\Responses;
+namespace juanantoniodatabis\Verifactu\Models\Responses;
 
 use DateTimeImmutable;
 use DateTimeInterface;
-use josemmo\Verifactu\Exceptions\AeatException;
-use josemmo\Verifactu\Models\Model;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
-use josemmo\Verifactu\Models\Records\Record;
-use josemmo\Verifactu\Services\AeatClient;
+use juanantoniodatabis\Verifactu\Exceptions\AeatException;
+use juanantoniodatabis\Verifactu\Models\Model;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\Record;
+use juanantoniodatabis\Verifactu\Services\AeatClient;
 use Symfony\Component\Validator\Constraints as Assert;
 use UXML\UXML;
 

@@ -1,8 +1,8 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models\Records;
+namespace juanantoniodatabis\Verifactu\Tests\Models\Records;
 
 use DateTimeImmutable;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
 use PHPUnit\Framework\TestCase;
 
 final class InvoiceIdentifierTest extends TestCase {

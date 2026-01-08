@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Models\Records;
+namespace juanantoniodatabis\Verifactu\Models\Records;
 
 /**
  * Claves de Régimen Especial o Trascendencia Adicional

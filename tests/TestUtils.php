@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Tests;
+namespace juanantoniodatabis\Verifactu\Tests;
 
 use RuntimeException;
 use UXML\UXML;

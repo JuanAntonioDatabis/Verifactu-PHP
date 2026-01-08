@@ -1,7 +1,7 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models\Records;
+namespace juanantoniodatabis\Verifactu\Tests\Models\Records;
 
-use josemmo\Verifactu\Models\Records\OperationType;
+use juanantoniodatabis\Verifactu\Models\Records\OperationType;
 use PHPUnit\Framework\TestCase;
 
 final class OperationTypeTest extends TestCase {

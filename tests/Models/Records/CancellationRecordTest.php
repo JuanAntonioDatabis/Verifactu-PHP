@@ -1,13 +1,13 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models\Records;
+namespace juanantoniodatabis\Verifactu\Tests\Models\Records;
 
 use DateTimeImmutable;
-use josemmo\Verifactu\Exceptions\InvalidModelException;
-use josemmo\Verifactu\Models\ComputerSystem;
-use josemmo\Verifactu\Models\Records\CancellationRecord;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
-use josemmo\Verifactu\Models\Records\Record;
-use josemmo\Verifactu\Tests\TestUtils;
+use juanantoniodatabis\Verifactu\Exceptions\InvalidModelException;
+use juanantoniodatabis\Verifactu\Models\ComputerSystem;
+use juanantoniodatabis\Verifactu\Models\Records\CancellationRecord;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\Record;
+use juanantoniodatabis\Verifactu\Tests\TestUtils;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use UXML\UXML;

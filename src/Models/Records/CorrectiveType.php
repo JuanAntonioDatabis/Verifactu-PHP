@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Models\Records;
+namespace juanantoniodatabis\Verifactu\Models\Records;
 
 /**
  * Tipo de factura rectificativa

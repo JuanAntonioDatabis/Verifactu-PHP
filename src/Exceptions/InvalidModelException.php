@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Exceptions;
+namespace juanantoniodatabis\Verifactu\Exceptions;
 
 use RuntimeException;
 use Symfony\Component\Validator\ConstraintViolation;

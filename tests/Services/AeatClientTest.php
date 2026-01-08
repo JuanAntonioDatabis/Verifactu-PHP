@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Tests\Services;
+namespace juanantoniodatabis\Verifactu\Tests\Services;
 
 use DateTimeImmutable;
 use GuzzleHttp\Client;
@@ -8,12 +8,12 @@ use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use josemmo\Verifactu\Exceptions\AeatException;
-use josemmo\Verifactu\Models\ComputerSystem;
-use josemmo\Verifactu\Models\Records\CancellationRecord;
-use josemmo\Verifactu\Models\Records\FiscalIdentifier;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
-use josemmo\Verifactu\Services\AeatClient;
+use juanantoniodatabis\Verifactu\Exceptions\AeatException;
+use juanantoniodatabis\Verifactu\Models\ComputerSystem;
+use juanantoniodatabis\Verifactu\Models\Records\CancellationRecord;
+use juanantoniodatabis\Verifactu\Models\Records\FiscalIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Services\AeatClient;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Client\ClientExceptionInterface;
 

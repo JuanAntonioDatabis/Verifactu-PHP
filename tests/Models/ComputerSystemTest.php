@@ -1,9 +1,9 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models;
+namespace juanantoniodatabis\Verifactu\Tests\Models;
 
-use josemmo\Verifactu\Models\ComputerSystem;
-use josemmo\Verifactu\Models\Records\Record;
-use josemmo\Verifactu\Tests\TestUtils;
+use juanantoniodatabis\Verifactu\Models\ComputerSystem;
+use juanantoniodatabis\Verifactu\Models\Records\Record;
+use juanantoniodatabis\Verifactu\Tests\TestUtils;
 use PHPUnit\Framework\TestCase;
 use UXML\UXML;
 

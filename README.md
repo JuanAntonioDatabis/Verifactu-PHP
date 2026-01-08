@@ -17,17 +17,17 @@ Asegúrate de que tu entorno de ejecución cumple los siguientes requisitos:
 
 ## Ejemplo de uso
 ```php
-use josemmo\Verifactu\Models\ComputerSystem;
-use josemmo\Verifactu\Models\Records\BreakdownDetails;
-use josemmo\Verifactu\Models\Records\FiscalIdentifier;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
-use josemmo\Verifactu\Models\Records\InvoiceType;
-use josemmo\Verifactu\Models\Records\OperationType;
-use josemmo\Verifactu\Models\Records\RegimeType;
-use josemmo\Verifactu\Models\Records\RegistrationRecord;
-use josemmo\Verifactu\Models\Records\TaxType;
-use josemmo\Verifactu\Models\Responses\ResponseStatus;
-use josemmo\Verifactu\Services\AeatClient;
+use juanantoniodatabis\Verifactu\Models\ComputerSystem;
+use juanantoniodatabis\Verifactu\Models\Records\BreakdownDetails;
+use juanantoniodatabis\Verifactu\Models\Records\FiscalIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceType;
+use juanantoniodatabis\Verifactu\Models\Records\OperationType;
+use juanantoniodatabis\Verifactu\Models\Records\RegimeType;
+use juanantoniodatabis\Verifactu\Models\Records\RegistrationRecord;
+use juanantoniodatabis\Verifactu\Models\Records\TaxType;
+use juanantoniodatabis\Verifactu\Models\Responses\ResponseStatus;
+use juanantoniodatabis\Verifactu\Services\AeatClient;
 
 require __DIR__ . '/vendor/autoload.php';
 

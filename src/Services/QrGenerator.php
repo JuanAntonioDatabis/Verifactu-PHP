@@ -1,9 +1,9 @@
 <?php
-namespace josemmo\Verifactu\Services;
+namespace juanantoniodatabis\Verifactu\Services;
 
 use DateTimeInterface;
-use josemmo\Verifactu\Models\Records\InvoiceIdentifier;
-use josemmo\Verifactu\Models\Records\RegistrationRecord;
+use juanantoniodatabis\Verifactu\Models\Records\InvoiceIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\RegistrationRecord;
 
 /**
  * Service to generate QR code URLs.

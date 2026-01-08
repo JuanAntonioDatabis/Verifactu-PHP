@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Models\Records;
+namespace juanantoniodatabis\Verifactu\Models\Records;
 
 enum OperationType: string {
     /** Operación sujeta y no exenta - Sin inversión del sujeto pasivo */

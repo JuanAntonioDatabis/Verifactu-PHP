@@ -1,5 +1,5 @@
 <?php
-namespace josemmo\Verifactu\Models\Responses;
+namespace juanantoniodatabis\Verifactu\Models\Responses;
 
 /**
  * Tipo de registro

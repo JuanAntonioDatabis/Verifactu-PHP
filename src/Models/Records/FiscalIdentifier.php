@@ -1,7 +1,7 @@
 <?php
-namespace josemmo\Verifactu\Models\Records;
+namespace juanantoniodatabis\Verifactu\Models\Records;
 
-use josemmo\Verifactu\Models\Model;
+use juanantoniodatabis\Verifactu\Models\Model;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**

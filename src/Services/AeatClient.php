@@ -1,16 +1,16 @@
 <?php
-namespace josemmo\Verifactu\Services;
+namespace juanantoniodatabis\Verifactu\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Promise\PromiseInterface;
 use InvalidArgumentException;
-use josemmo\Verifactu\Exceptions\AeatException;
-use josemmo\Verifactu\Models\ComputerSystem;
-use josemmo\Verifactu\Models\Records\CancellationRecord;
-use josemmo\Verifactu\Models\Records\FiscalIdentifier;
-use josemmo\Verifactu\Models\Records\Record;
-use josemmo\Verifactu\Models\Records\RegistrationRecord;
-use josemmo\Verifactu\Models\Responses\AeatResponse;
+use juanantoniodatabis\Verifactu\Exceptions\AeatException;
+use juanantoniodatabis\Verifactu\Models\ComputerSystem;
+use juanantoniodatabis\Verifactu\Models\Records\CancellationRecord;
+use juanantoniodatabis\Verifactu\Models\Records\FiscalIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\Record;
+use juanantoniodatabis\Verifactu\Models\Records\RegistrationRecord;
+use juanantoniodatabis\Verifactu\Models\Responses\AeatResponse;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Message\ResponseInterface;
 use SensitiveParameter;

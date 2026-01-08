@@ -1,9 +1,9 @@
 <?php
-namespace josemmo\Verifactu\Tests\Models\Records;
+namespace juanantoniodatabis\Verifactu\Tests\Models\Records;
 
-use josemmo\Verifactu\Exceptions\InvalidModelException;
-use josemmo\Verifactu\Models\Records\ForeignFiscalIdentifier;
-use josemmo\Verifactu\Models\Records\ForeignIdType;
+use juanantoniodatabis\Verifactu\Exceptions\InvalidModelException;
+use juanantoniodatabis\Verifactu\Models\Records\ForeignFiscalIdentifier;
+use juanantoniodatabis\Verifactu\Models\Records\ForeignIdType;
 use PHPUnit\Framework\TestCase;
 
 final class ForeignFiscalIdentifierTest extends TestCase {

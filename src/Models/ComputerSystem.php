@@ -1,7 +1,7 @@
 <?php
-namespace josemmo\Verifactu\Models;
+namespace juanantoniodatabis\Verifactu\Models;
 
-use josemmo\Verifactu\Exceptions\ImportException;
+use juanantoniodatabis\Verifactu\Exceptions\ImportException;
 use Symfony\Component\Validator\Constraints as Assert;
 use UXML\UXML;
 
