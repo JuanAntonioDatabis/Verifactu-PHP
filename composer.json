@@ -19,18 +19,18 @@
     },
     "autoload": {
         "psr-4": {
-            "JuanAntonioDatabis\\Verifactu\\": "src/"
+            "juanantoniodatabis\\Verifactu\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JuanAntonioDatabis\\Verifactu\\Tests\\": "tests/"
+            "juanantoniodatabis\\Verifactu\\Tests\\": "tests/"
         }
     },
     "require": {
         "php": ">=7.4",
         "guzzlehttp/guzzle": "^7.10",
-        "JuanAntonioDatabis/uxml": "^0.2.0",
+        "josemmo/uxml": "^0.2.0",
         "symfony/validator": "^6.4|^7.4|^8.0"
     },
     "config": {
